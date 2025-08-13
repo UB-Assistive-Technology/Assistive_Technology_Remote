@@ -1,6 +1,5 @@
 import eel
 import serial
-import webview
 
 # Start serial communication to arduino
 # *** Make sure your port and baud rate is correct ***
@@ -16,12 +15,5 @@ def send_data(message):
     ser.write((message + '\n').encode())
     print(f"Sent to Arduino: {message}")
 
-webview.create_window(
-    "Assistive Technology Remote",
-    "web/index.html",
-    width=480,
-    height=800,
-    resizable=False
-)
-
-webview.start()
+# Start hosting index.html with Eel
+eel.start('index.html', size=(480, 800))
