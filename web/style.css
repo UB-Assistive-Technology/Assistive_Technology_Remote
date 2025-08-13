@@ -7,7 +7,6 @@ html, body {
 }
 body {
     transform: scale(8);
-    transform-origin: top left;
 }
 
 .remote-container {
