@@ -5,9 +5,6 @@ html, body {
     height: 100%;
     overflow: hidden;
 }
-body {
-    transform: scale(8);
-}
 
 .remote-container {
     width: 100%;
@@ -19,7 +16,7 @@ body {
 .remote-label {
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 20.9px;
+    font-size: 167.2px;
     color: #ffffff;
     padding-top: 30px;
     text-align: center;
