@@ -16,7 +16,7 @@ html, body {
 .remote-label {
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 6vh;
+    font-size: 4vh;
     color: #ffffff;
     padding-top: 2vh;
     text-align: center;
@@ -33,13 +33,13 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18vh;
-    height: 18vh;
+    width: 25vh;
+    height: 25vh;
     border-radius: 50%;
 }
 .power-btn img {
-    width: 7vh;
-    height: 7vh;
+    width: 10vh;
+    height: 10vh;
 }
 
 .control-row {
@@ -53,8 +53,8 @@ html, body {
 
 .volume-section, .channel-section {
     background: #222831;
-    width: 15vw;
-    height: 55vh;
+    width: 35vw;
+    height: 60vh;
     border-radius: 27.5vh;
     display: flex;
     flex-direction: column;
@@ -68,8 +68,8 @@ html, body {
     font-weight: bold;
     color: #ffffff;
     font-size: 3.5vh;
-    padding-bottom: 1vh;
-    padding-top: 1vh;
+    padding-bottom: 4vh;
+    padding-top: 4vh;
 }
 
 .channel-label {
@@ -77,8 +77,8 @@ html, body {
     font-weight: bold;
     color: #ffffff;
     font-size: 3.5vh;
-    padding-bottom: 1vh;
-    padding-top: 1vh;
+    padding-bottom: 4vh;
+    padding-top: 4vh;
 }
 
 .volume-plus-btn,
@@ -86,14 +86,14 @@ html, body {
 .channel-up-btn,
 .channel-down-btn {
     background-color: #393e46;
-    height: 14vh;
-    width: 14vh;
+    height: 18vh;
+    width: 18vh;
     border-radius: 50%;
 }
 .volume-plus-btn img,
 .volume-minus-btn img,
 .channel-up-btn img,
 .channel-down-btn img {
-    width: 6vh;
-    height: 6vh;
+    width: 8vh;
+    height: 8vh;
 }
