@@ -3,8 +3,8 @@ import serial
 
 # Start serial communication to arduino
 # *** Make sure your port and baud rate is correct ***
-ser = serial.Serial('COM9', 115200) # This line is for PC testing purposes
-# ser = serial.Serial("/dev/ttyACM0", 115200) # This line is for Raspberry Pi 
+# ser = serial.Serial('COM9', 115200, timeout=None) # This line is for PC testing purposes (Should be commented before commits)
+ser = serial.Serial("/dev/ttyACM0", 115200, timeout=None) # This line is for Raspberry Pi (Should be used for raspberry pi in dev)
 
 # Initialize Eel Library
 eel.init('web')
@@ -16,4 +16,4 @@ def send_data(message):
     print(f"Sent to Arduino: {message}")
 
 # Start hosting index.html with Eel
-eel.start('index.html', size=(480, 800))
+eel.start('index.html', size=(480, 800), port=5000)
